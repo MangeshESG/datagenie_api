@@ -1,0 +1,195 @@
+2025-08-23 00:50:37.349 +05:30 [INF] Now listening on: https://localhost:7194
+2025-08-23 00:50:38.513 +05:30 [INF] Now listening on: http://localhost:5290
+2025-08-23 00:50:39.994 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7194/swagger/index.html - null null
+2025-08-23 00:50:43.846 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-23 00:50:43.893 +05:30 [INF] Hosting environment: Development
+2025-08-23 00:50:43.894 +05:30 [INF] Content root path: C:\Users\USER\source\repos\datagenie_api\datagenie_api\datagenie_api
+2025-08-23 00:50:44.126 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7194/swagger/index.html - 200 null text/html;charset=utf-8 4192.8918ms
+2025-08-23 00:50:44.147 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7194/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-23 00:50:44.195 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7194/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 46.8976ms
+2025-08-23 00:50:44.257 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7194/_vs/browserLink - null null
+2025-08-23 00:50:44.531 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 273.5533ms
+2025-08-23 00:50:46.074 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7194/swagger/v1/swagger.json - null null
+2025-08-23 00:50:46.308 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 234.3482ms
+2025-08-23 00:54:24.429 +05:30 [INF] Now listening on: https://localhost:7194
+2025-08-23 00:54:24.507 +05:30 [INF] Now listening on: http://localhost:5290
+2025-08-23 00:54:24.804 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-23 00:54:24.805 +05:30 [INF] Hosting environment: Development
+2025-08-23 00:54:24.805 +05:30 [INF] Content root path: C:\Users\USER\source\repos\datagenie_api\datagenie_api\datagenie_api
+2025-08-23 00:54:25.669 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7194/swagger/index.html - null null
+2025-08-23 00:54:26.586 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7194/swagger/index.html - 200 null text/html;charset=utf-8 941.7405ms
+2025-08-23 00:54:26.613 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7194/_vs/browserLink - null null
+2025-08-23 00:54:26.613 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7194/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-23 00:54:26.628 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7194/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 14.7063ms
+2025-08-23 00:54:26.776 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 162.6259ms
+2025-08-23 00:54:26.877 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7194/swagger/v1/swagger.json - null null
+2025-08-23 00:54:26.976 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 99.5991ms
+2025-08-23 00:55:15.565 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7194/api/Auth/register - application/json 189
+2025-08-23 00:55:15.632 +05:30 [INF] Request Path: /api/Auth/register, Body: {
+  "firstName": "awes",
+  "lastName": "ali",
+  "userName": "awesali@123",
+  "password": "Awes@123",
+  "email": "awesalisayed3@gmail.com",
+  "companyName": "ServiceJi",
+  "jobTitle": "sd"
+}
+2025-08-23 00:55:15.648 +05:30 [INF] Executing endpoint 'datagenie_api.Controllers.AuthController.Register (datagenie_api)'
+2025-08-23 00:55:15.798 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(datagenie_api.Model.Dto.RegisterRequest) on controller datagenie_api.Controllers.AuthController (datagenie_api).
+2025-08-23 00:55:23.027 +05:30 [INF] RegisterEmail started for Email: awesalisayed3@gmail.com
+2025-08-23 00:55:23.143 +05:30 [INF] Checking if client exists for Email: awesalisayed3@gmail.com
+2025-08-23 00:55:24.993 +05:30 [INF] Client exists check for awesalisayed3@gmail.com. Count: 0
+2025-08-23 00:55:25.008 +05:30 [INF] Generated OTP for awesalisayed3@gmail.com: HfYqTh
+2025-08-23 00:55:25.472 +05:30 [INF] OTP record inserted in DB for Email: awesalisayed3@gmail.com
+2025-08-23 00:55:25.472 +05:30 [INF] Inserted OTP record for awesalisayed3@gmail.com
+2025-08-23 00:55:25.997 +05:30 [INF] Temp register data inserted for Email: awesalisayed3@gmail.com
+2025-08-23 00:55:26.001 +05:30 [INF] Inserted temp register data for awesalisayed3@gmail.com
+2025-08-23 00:55:26.192 +05:30 [INF] Fetching email template for TemplateID: "AuthenticationCode"
+2025-08-23 00:55:26.443 +05:30 [INF] Sending email to: awesalisayed3@gmail.com
+2025-08-23 00:55:26.471 +05:30 [INF] Preparing to send email to: awesalisayed3@gmail.com, Subject: Your DataGenie authentication code
+2025-08-23 00:55:29.620 +05:30 [INF] Email sent successfully to: awesalisayed3@gmail.com
+2025-08-23 00:55:29.621 +05:30 [INF] Email sending status to awesalisayed3@gmail.com: true
+2025-08-23 00:55:29.622 +05:30 [INF] OTP email sent successfully to awesalisayed3@gmail.com
+2025-08-23 00:55:29.622 +05:30 [INF] Sent OTP email to awesalisayed3@gmail.com
+2025-08-23 00:55:29.675 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-23 00:55:29.689 +05:30 [INF] Executed action datagenie_api.Controllers.AuthController.Register (datagenie_api) in 13874.6387ms
+2025-08-23 00:55:29.693 +05:30 [INF] Executed endpoint 'datagenie_api.Controllers.AuthController.Register (datagenie_api)'
+2025-08-23 00:55:29.695 +05:30 [INF] Response Status Code: 200
+2025-08-23 00:55:29.698 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7194/api/Auth/register - 200 null text/plain; charset=utf-8 14133.1338ms
+2025-08-23 00:56:11.542 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7194/api/Auth/registration-verify-otp?Email=awesali%40123&Otp=bFBi7W - null 0
+2025-08-23 00:56:11.566 +05:30 [INF] Request Path: /api/Auth/registration-verify-otp, Body: 
+2025-08-23 00:56:11.568 +05:30 [INF] Executing endpoint 'datagenie_api.Controllers.AuthController.VerifyOtp (datagenie_api)'
+2025-08-23 00:56:11.590 +05:30 [INF] Route matched with {action = "VerifyOtp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyOtp(System.String, System.String) on controller datagenie_api.Controllers.AuthController (datagenie_api).
+2025-08-23 00:56:14.124 +05:30 [INF] Fetching OTP record for Email: awesali@123, OTP: bFBi7W
+2025-08-23 00:56:14.531 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-08-23 00:56:14.532 +05:30 [INF] Executed action datagenie_api.Controllers.AuthController.VerifyOtp (datagenie_api) in 2941.7097ms
+2025-08-23 00:56:14.532 +05:30 [INF] Executed endpoint 'datagenie_api.Controllers.AuthController.VerifyOtp (datagenie_api)'
+2025-08-23 00:56:14.532 +05:30 [INF] Response Status Code: 400
+2025-08-23 00:56:14.533 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7194/api/Auth/registration-verify-otp?Email=awesali%40123&Otp=bFBi7W - 400 null text/plain; charset=utf-8 2990.9676ms
+2025-08-23 00:58:38.894 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7194/api/Auth/registration-verify-otp?Email=awesali%40123&Otp=HfYqTh - null 0
+2025-08-23 00:58:38.919 +05:30 [INF] Request Path: /api/Auth/registration-verify-otp, Body: 
+2025-08-23 00:58:38.919 +05:30 [INF] Executing endpoint 'datagenie_api.Controllers.AuthController.VerifyOtp (datagenie_api)'
+2025-08-23 00:58:38.919 +05:30 [INF] Route matched with {action = "VerifyOtp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyOtp(System.String, System.String) on controller datagenie_api.Controllers.AuthController (datagenie_api).
+2025-08-23 00:58:41.560 +05:30 [INF] Fetching OTP record for Email: awesali@123, OTP: HfYqTh
+2025-08-23 00:58:41.733 +05:30 [INF] Marking OTP as verified for Email: awesali@123, OTP: HfYqTh
+2025-08-23 00:58:41.912 +05:30 [INF] Fetching temp registration data for Email: awesali@123
+2025-08-23 00:58:42.111 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-08-23 00:58:42.111 +05:30 [INF] Executed action datagenie_api.Controllers.AuthController.VerifyOtp (datagenie_api) in 3191.6989ms
+2025-08-23 00:58:42.112 +05:30 [INF] Executed endpoint 'datagenie_api.Controllers.AuthController.VerifyOtp (datagenie_api)'
+2025-08-23 00:58:42.112 +05:30 [INF] Response Status Code: 400
+2025-08-23 00:58:42.112 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7194/api/Auth/registration-verify-otp?Email=awesali%40123&Otp=HfYqTh - 400 null text/plain; charset=utf-8 3219.2447ms
+2025-08-23 00:59:19.557 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7194/api/Auth/register - application/json 189
+2025-08-23 00:59:19.570 +05:30 [INF] Request Path: /api/Auth/register, Body: {
+  "firstName": "awes",
+  "lastName": "ali",
+  "userName": "awesali@123",
+  "password": "Awes@123",
+  "email": "awesalisayed3@gmail.com",
+  "companyName": "ServiceJi",
+  "jobTitle": "sd"
+}
+2025-08-23 00:59:19.570 +05:30 [INF] Executing endpoint 'datagenie_api.Controllers.AuthController.Register (datagenie_api)'
+2025-08-23 00:59:19.570 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(datagenie_api.Model.Dto.RegisterRequest) on controller datagenie_api.Controllers.AuthController (datagenie_api).
+2025-08-23 00:59:26.022 +05:30 [INF] RegisterEmail started for Email: awesalisayed3@gmail.com
+2025-08-23 00:59:26.022 +05:30 [INF] Checking if client exists for Email: awesalisayed3@gmail.com
+2025-08-23 00:59:26.199 +05:30 [INF] Client exists check for awesalisayed3@gmail.com. Count: 0
+2025-08-23 00:59:26.202 +05:30 [INF] Generated OTP for awesalisayed3@gmail.com: DF5TJo
+2025-08-23 00:59:26.413 +05:30 [INF] OTP record inserted in DB for Email: awesalisayed3@gmail.com
+2025-08-23 00:59:26.413 +05:30 [INF] Inserted OTP record for awesalisayed3@gmail.com
+2025-08-23 00:59:26.644 +05:30 [INF] Temp register data inserted for Email: awesalisayed3@gmail.com
+2025-08-23 00:59:26.644 +05:30 [INF] Inserted temp register data for awesalisayed3@gmail.com
+2025-08-23 00:59:26.788 +05:30 [INF] Fetching email template for TemplateID: "AuthenticationCode"
+2025-08-23 00:59:26.975 +05:30 [INF] Sending email to: awesalisayed3@gmail.com
+2025-08-23 00:59:26.975 +05:30 [INF] Preparing to send email to: awesalisayed3@gmail.com, Subject: Your DataGenie authentication code
+2025-08-23 00:59:30.093 +05:30 [INF] Email sent successfully to: awesalisayed3@gmail.com
+2025-08-23 00:59:30.093 +05:30 [INF] Email sending status to awesalisayed3@gmail.com: true
+2025-08-23 00:59:30.093 +05:30 [INF] OTP email sent successfully to awesalisayed3@gmail.com
+2025-08-23 00:59:30.093 +05:30 [INF] Sent OTP email to awesalisayed3@gmail.com
+2025-08-23 00:59:30.093 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-23 00:59:30.094 +05:30 [INF] Executed action datagenie_api.Controllers.AuthController.Register (datagenie_api) in 10518.5671ms
+2025-08-23 00:59:30.094 +05:30 [INF] Executed endpoint 'datagenie_api.Controllers.AuthController.Register (datagenie_api)'
+2025-08-23 00:59:30.094 +05:30 [INF] Response Status Code: 200
+2025-08-23 00:59:30.094 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7194/api/Auth/register - 200 null text/plain; charset=utf-8 10537.4734ms
+2025-08-23 01:00:01.018 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7194/api/Auth/registration-verify-otp?Email=awesali%40123&Otp=DF5TJo - null 0
+2025-08-23 01:00:01.019 +05:30 [INF] Request Path: /api/Auth/registration-verify-otp, Body: 
+2025-08-23 01:00:01.026 +05:30 [INF] Executing endpoint 'datagenie_api.Controllers.AuthController.VerifyOtp (datagenie_api)'
+2025-08-23 01:00:01.027 +05:30 [INF] Route matched with {action = "VerifyOtp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyOtp(System.String, System.String) on controller datagenie_api.Controllers.AuthController (datagenie_api).
+2025-08-23 01:00:09.810 +05:30 [INF] Fetching OTP record for Email: awesali@123, OTP: DF5TJo
+2025-08-23 01:00:09.980 +05:30 [INF] Marking OTP as verified for Email: awesali@123, OTP: DF5TJo
+2025-08-23 01:00:10.150 +05:30 [INF] Fetching temp registration data for Email: awesali@123
+2025-08-23 01:00:10.316 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-08-23 01:00:10.316 +05:30 [INF] Executed action datagenie_api.Controllers.AuthController.VerifyOtp (datagenie_api) in 9289.5002ms
+2025-08-23 01:00:10.317 +05:30 [INF] Executed endpoint 'datagenie_api.Controllers.AuthController.VerifyOtp (datagenie_api)'
+2025-08-23 01:00:10.317 +05:30 [INF] Response Status Code: 400
+2025-08-23 01:00:10.317 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7194/api/Auth/registration-verify-otp?Email=awesali%40123&Otp=DF5TJo - 400 null text/plain; charset=utf-8 9299.9346ms
+2025-08-23 01:00:14.698 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7194/api/Auth/registration-verify-otp?Email=awesali%40123&Otp=DF5TJo - null 0
+2025-08-23 01:00:14.701 +05:30 [INF] Request Path: /api/Auth/registration-verify-otp, Body: 
+2025-08-23 01:00:14.701 +05:30 [INF] Executing endpoint 'datagenie_api.Controllers.AuthController.VerifyOtp (datagenie_api)'
+2025-08-23 01:00:14.702 +05:30 [INF] Route matched with {action = "VerifyOtp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyOtp(System.String, System.String) on controller datagenie_api.Controllers.AuthController (datagenie_api).
+2025-08-23 01:00:21.748 +05:30 [INF] Fetching OTP record for Email: awesali@123, OTP: DF5TJo
+2025-08-23 01:00:57.597 +05:30 [INF] Marking OTP as verified for Email: awesali@123, OTP: DF5TJo
+2025-08-23 01:01:11.389 +05:30 [INF] Fetching temp registration data for Email: awesali@123
+2025-08-23 01:02:23.723 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-08-23 01:02:23.736 +05:30 [INF] Executed action datagenie_api.Controllers.AuthController.VerifyOtp (datagenie_api) in 129034.2064ms
+2025-08-23 01:02:23.737 +05:30 [INF] Executed endpoint 'datagenie_api.Controllers.AuthController.VerifyOtp (datagenie_api)'
+2025-08-23 01:02:23.737 +05:30 [INF] Response Status Code: 400
+2025-08-23 01:02:23.738 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7194/api/Auth/registration-verify-otp?Email=awesali%40123&Otp=DF5TJo - 400 null text/plain; charset=utf-8 129039.2824ms
+2025-08-23 01:02:41.548 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7194/api/Auth/registration-verify-otp?Email=awesalisayed3%40gmail.com&Otp=DF5TJo - null 0
+2025-08-23 01:02:41.550 +05:30 [INF] Request Path: /api/Auth/registration-verify-otp, Body: 
+2025-08-23 01:02:41.551 +05:30 [INF] Executing endpoint 'datagenie_api.Controllers.AuthController.VerifyOtp (datagenie_api)'
+2025-08-23 01:02:41.551 +05:30 [INF] Route matched with {action = "VerifyOtp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyOtp(System.String, System.String) on controller datagenie_api.Controllers.AuthController (datagenie_api).
+2025-08-23 01:02:44.185 +05:30 [INF] Fetching OTP record for Email: awesalisayed3@gmail.com, OTP: DF5TJo
+2025-08-23 01:02:44.366 +05:30 [INF] Marking OTP as verified for Email: awesalisayed3@gmail.com, OTP: DF5TJo
+2025-08-23 01:02:44.587 +05:30 [INF] Fetching temp registration data for Email: awesalisayed3@gmail.com
+2025-08-23 01:02:45.034 +05:30 [INF] Registering user: awesalisayed3@gmail.com
+2025-08-23 01:02:45.623 +05:30 [INF] User registered. Email: awesalisayed3@gmail.com, Result: Data saved successfully
+2025-08-23 01:02:45.640 +05:30 [INF] Deleting temp registration data for Email: awesalisayed3@gmail.com
+2025-08-23 01:02:46.043 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-23 01:02:46.044 +05:30 [INF] Executed action datagenie_api.Controllers.AuthController.VerifyOtp (datagenie_api) in 4492.2854ms
+2025-08-23 01:02:46.044 +05:30 [INF] Executed endpoint 'datagenie_api.Controllers.AuthController.VerifyOtp (datagenie_api)'
+2025-08-23 01:02:46.044 +05:30 [INF] Response Status Code: 200
+2025-08-23 01:02:46.048 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7194/api/Auth/registration-verify-otp?Email=awesalisayed3%40gmail.com&Otp=DF5TJo - 200 null text/plain; charset=utf-8 4499.9309ms
+2025-08-23 01:03:03.001 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7194/api/Auth/login?Username=awesali%40123&Password=Awes%40123 - null 0
+2025-08-23 01:03:03.005 +05:30 [INF] Request Path: /api/Auth/login, Body: 
+2025-08-23 01:03:03.005 +05:30 [INF] Executing endpoint 'datagenie_api.Controllers.AuthController.Login (datagenie_api)'
+2025-08-23 01:03:03.087 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String, System.Nullable`1[System.Int32]) on controller datagenie_api.Controllers.AuthController (datagenie_api).
+2025-08-23 01:03:03.106 +05:30 [INF] Checking user existence for Username: awesali@123
+2025-08-23 01:03:03.316 +05:30 [INF] User existence check completed for awesali@123. Found: true
+2025-08-23 01:03:03.320 +05:30 [INF] Sending login OTP email to: awesalisayed3@gmail.com
+2025-08-23 01:03:03.595 +05:30 [INF] Fetching email template for TemplateID: "AuthenticationCode"
+2025-08-23 01:03:03.768 +05:30 [INF] Sending email to: awesalisayed3@gmail.com
+2025-08-23 01:03:03.768 +05:30 [INF] Preparing to send email to: awesalisayed3@gmail.com, Subject: Your DataGenie authentication code
+2025-08-23 01:03:07.364 +05:30 [INF] Email sent successfully to: awesalisayed3@gmail.com
+2025-08-23 01:03:07.364 +05:30 [INF] Email sending status to awesalisayed3@gmail.com: true
+2025-08-23 01:03:07.364 +05:30 [INF] Login OTP email sent successfully to awesalisayed3@gmail.com
+2025-08-23 01:03:07.564 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-23 01:03:07.607 +05:30 [INF] Executed action datagenie_api.Controllers.AuthController.Login (datagenie_api) in 4518.9889ms
+2025-08-23 01:03:07.608 +05:30 [INF] Executed endpoint 'datagenie_api.Controllers.AuthController.Login (datagenie_api)'
+2025-08-23 01:03:07.608 +05:30 [INF] Response Status Code: 200
+2025-08-23 01:03:07.608 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7194/api/Auth/login?Username=awesali%40123&Password=Awes%40123 - 200 null application/json; charset=utf-8 4628.3792ms
+2025-08-23 01:03:55.267 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7194/api/Auth/verify_trust_otp?username=awesalisayed3%40gmail.com&otp=L3EPJz&trustthisdivice=true&Password=Awes%40123 - null 0
+2025-08-23 01:03:55.270 +05:30 [INF] Request Path: /api/Auth/verify_trust_otp, Body: 
+2025-08-23 01:03:55.272 +05:30 [INF] Executing endpoint 'datagenie_api.Controllers.AuthController.TrustedDivice (datagenie_api)'
+2025-08-23 01:03:55.284 +05:30 [INF] Route matched with {action = "TrustedDivice", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TrustedDivice(System.String, System.String, Boolean, System.String) on controller datagenie_api.Controllers.AuthController (datagenie_api).
+2025-08-23 01:03:58.074 +05:30 [INF] Checking user existence for Username: awesalisayed3@gmail.com
+2025-08-23 01:03:58.254 +05:30 [INF] User existence check completed for awesalisayed3@gmail.com. Found: true
+2025-08-23 01:03:58.254 +05:30 [INF] Fetching OTP record for Email: awesalisayed3@gmail.com, OTP: L3EPJz
+2025-08-23 01:03:58.526 +05:30 [INF] Marking OTP as verified for Email: awesalisayed3@gmail.com, OTP: L3EPJz
+2025-08-23 01:03:58.968 +05:30 [INF] Updating trusted device number for ClientId: 6274
+2025-08-23 01:03:59.707 +05:30 [INF] Updated trusted device number for ClientId: 6274
+2025-08-23 01:03:59.949 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-23 01:03:59.955 +05:30 [INF] Executed action datagenie_api.Controllers.AuthController.TrustedDivice (datagenie_api) in 4669.8404ms
+2025-08-23 01:03:59.955 +05:30 [INF] Executed endpoint 'datagenie_api.Controllers.AuthController.TrustedDivice (datagenie_api)'
+2025-08-23 01:03:59.955 +05:30 [INF] Response Status Code: 200
+2025-08-23 01:03:59.956 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7194/api/Auth/verify_trust_otp?username=awesalisayed3%40gmail.com&otp=L3EPJz&trustthisdivice=true&Password=Awes%40123 - 200 null application/json; charset=utf-8 4688.7914ms
+2025-08-23 01:04:10.005 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7194/api/Auth/login?Username=awesali%40123&Password=Awes%40123&trustednumber=749894 - null 0
+2025-08-23 01:04:10.006 +05:30 [INF] Request Path: /api/Auth/login, Body: 
+2025-08-23 01:04:10.006 +05:30 [INF] Executing endpoint 'datagenie_api.Controllers.AuthController.Login (datagenie_api)'
+2025-08-23 01:04:10.006 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String, System.Nullable`1[System.Int32]) on controller datagenie_api.Controllers.AuthController (datagenie_api).
+2025-08-23 01:04:10.017 +05:30 [INF] Checking user existence for Username: awesali@123
+2025-08-23 01:04:10.203 +05:30 [INF] User existence check completed for awesali@123. Found: true
+2025-08-23 01:04:10.206 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-23 01:04:10.213 +05:30 [INF] Executed action datagenie_api.Controllers.AuthController.Login (datagenie_api) in 206.6726ms
+2025-08-23 01:04:10.213 +05:30 [INF] Executed endpoint 'datagenie_api.Controllers.AuthController.Login (datagenie_api)'
+2025-08-23 01:04:10.214 +05:30 [INF] Response Status Code: 200
+2025-08-23 01:04:10.214 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7194/api/Auth/login?Username=awesali%40123&Password=Awes%40123&trustednumber=749894 - 200 null application/json; charset=utf-8 209.1513ms
