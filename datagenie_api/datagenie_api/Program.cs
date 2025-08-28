@@ -17,12 +17,22 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// ? Register DapperContext
+//  Register DapperContext
 builder.Services.AddSingleton<DapperContext>();
 
-// ? Register repositories/services
+//  Register repositories/services
 builder.Services.AddDatagenieServices();
 
+//  Add CORS policy (sirf localhost:3000 allow hoga)
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowLocalhost3000", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000")
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
 
 var app = builder.Build();
 
@@ -35,6 +45,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseMiddleware<ExceptionLoggingMiddleware>(); // ? Token Blacklist Check
+
+//  Use CORS (before Authorization)
+app.UseCors("AllowLocalhost3000");
 
 app.UseAuthorization();
 

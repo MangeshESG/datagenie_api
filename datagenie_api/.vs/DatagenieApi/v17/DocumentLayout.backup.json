@@ -71,8 +71,7 @@
               "RelativeToolTip": "datagenie_api\\Interfaces\\IRegistrationRepository.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAhwA4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T11:50:08.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T11:50:08.856Z"
             },
             {
               "$type": "Document",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "datagenie_api\\Repositorys\\RegistrationRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T10:45:00.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T10:45:00.179Z"
             },
             {
               "$type": "Document",
@@ -109,8 +107,7 @@
               "RelativeToolTip": "datagenie_api\\Repositorys\\HelperRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T10:40:52.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T10:40:52.823Z"
             },
             {
               "$type": "Document",
@@ -122,8 +119,7 @@
               "RelativeToolTip": "datagenie_api\\Services\\EmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T08:22:27.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T08:22:27.812Z"
             },
             {
               "$type": "Document",
@@ -135,8 +131,7 @@
               "RelativeToolTip": "datagenie_api\\Controllers\\AuthController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAAAIMAAACrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T19:20:25.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T19:20:25.522Z"
             }
           ]
         }
