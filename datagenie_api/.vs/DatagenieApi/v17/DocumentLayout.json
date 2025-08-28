@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,6 +49,10 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ExceptionLoggingMiddleware.cs",
@@ -56,7 +60,7 @@
               "RelativeDocumentMoniker": "datagenie_api\\Middleware\\ExceptionLoggingMiddleware.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\datagenie_api\\datagenie_api\\datagenie_api\\Middleware\\ExceptionLoggingMiddleware.cs",
               "RelativeToolTip": "datagenie_api\\Middleware\\ExceptionLoggingMiddleware.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwA8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T11:58:13.904Z",
               "EditorCaption": ""
@@ -131,7 +135,8 @@
               "RelativeToolTip": "datagenie_api\\Controllers\\AuthController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAAAIMAAACrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T19:20:25.522Z"
+              "WhenOpened": "2025-08-22T19:20:25.522Z",
+              "EditorCaption": ""
             }
           ]
         }
