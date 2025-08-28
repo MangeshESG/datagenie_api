@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("datagenie_api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b0d13b21fa00a5d9ec6c8cd6b5887bafe57ca6c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2f5be1b28be1d90c49d9dceac99e916fc790f1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("datagenie_api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("datagenie_api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
