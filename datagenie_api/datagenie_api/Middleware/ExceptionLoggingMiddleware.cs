@@ -36,8 +36,11 @@ namespace datagenie_api.Middleware
                 _logger.LogError(ex, "Global Exception Caught: {Message}", ex.Message);
 
                 context.Response.StatusCode = 500;
-                await context.Response.WriteAsync("Somthing Went Wrong. Please try again later.");
+                context.Response.ContentType = "text/plain";
+
+                await context.Response.WriteAsync($"Something went wrong. Error: {ex.Message}");
             }
+
         }
     }
 }

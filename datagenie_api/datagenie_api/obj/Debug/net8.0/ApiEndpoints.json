@@ -136,6 +136,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "datagenie_api.Controllers.CommonController",
+    "Method": "GetContactDirectory",
+    "RelativePath": "api/Common/ContactDirectory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "location",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "datagenie_api.Controllers.CommonController",
+    "Method": "GetCompanyDirectory",
+    "RelativePath": "api/Common/GetCompanyDirectory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "datagenie_api.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

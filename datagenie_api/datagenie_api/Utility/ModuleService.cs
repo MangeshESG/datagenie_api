@@ -11,6 +11,8 @@ namespace datagenie_api.Utility
             // Repositories
             services.AddScoped<IHelperRepository, HelperRepository>();
             services.AddScoped<IRegistrationRepository, RegistrationRepository>();
+            services.AddScoped<ICompanyRepository, CompanyRepository>();
+            services.AddScoped<IContactRepository, ContactRepository>();
 
             // Services
             services.AddScoped<IEmailService, EmailService>();
