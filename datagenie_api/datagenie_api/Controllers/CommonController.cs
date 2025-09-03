@@ -14,13 +14,11 @@ namespace datagenie_api.Controllers
     {
         private readonly ICompanyRepository _company;
         private readonly IContactRepository _contact;
-        private readonly ContactService _service;
 
-        public CommonController(ICompanyRepository company, IContactRepository contact, ContactService service)
+        public CommonController(ICompanyRepository company, IContactRepository contact)
         {
             _company = company;
             _contact = contact;
-            _service = service;
         }
 
         [HttpGet("GetCompanyDirectory")]
@@ -120,7 +118,7 @@ namespace datagenie_api.Controllers
             if (string.IsNullOrEmpty(recordId) || !long.TryParse(recordId, out long recordIdLong))
                 return BadRequest("Invalid recordId");
 
-            var contact = _service.GetContactDetails(recordIdLong, flag);
+            var contact = _contact.GetContactDetails(recordIdLong, flag);
 
             if (contact == null)
                 return NotFound("Contact not found");
@@ -128,7 +126,7 @@ namespace datagenie_api.Controllers
             var firstName = contact.CONTACT?.Split(' ')[0];
             if (!string.IsNullOrEmpty(firstName))
             {
-                contact.Gender = _service.GetGender(firstName);
+                contact.Gender = _contact.GetGender(firstName);
             }
 
             // ✅ ClientID optional — no JWT required
@@ -136,7 +134,7 @@ namespace datagenie_api.Controllers
 
             if (!string.IsNullOrEmpty(clientIdStr) && int.TryParse(clientIdStr, out int clientId))
             {
-                bool isUnlocked = _service.IsEmailUnlocked(recordId, clientId);
+                bool isUnlocked = _contact.IsEmailUnlocked(recordId, clientId);
                 contact.displayEmail = isUnlocked ? contact.HUNTER_EMAIL : string.Empty;
             }
             else
