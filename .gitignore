@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/datagenie_api/v17/.wsuo
+/datagenie_api/.vs/DatagenieApi/FileContentIndex/23549a90-761d-4193-ac5f-6b7e44633459.vsidx
+/datagenie_api/datagenie_api/obj/Debug/net8.0/datagenie_api.AssemblyInfoInputs.cache
+/datagenie_api/datagenie_api/obj/Debug/net8.0/datagenie_api.assets.cache
+/datagenie_api/datagenie_api/obj/Debug/net8.0/datagenie_api.GeneratedMSBuildEditorConfig.editorconfig
+/datagenie_api/datagenie_api/obj/datagenie_api.csproj.nuget.dgspec.json
+*.json
+/datagenie_api/datagenie_api/obj/datagenie_api.csproj.nuget.g.props
+/datagenie_api/datagenie_api/obj/project.assets.json
+/datagenie_api/datagenie_api/obj/project.nuget.cache
+/datagenie_api/datagenie_api/obj/Debug/net8.0/datagenie_api.csproj.AssemblyReference.cache
