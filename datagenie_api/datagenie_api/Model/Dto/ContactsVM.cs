@@ -2,6 +2,7 @@
 
 namespace datagenie_api.Model.Dto
 {
+    using global::datagenie_api.Model.Dto.datagenie_api.Model.Dto;
     using System.ComponentModel.DataAnnotations.Schema;
 
     namespace datagenie_api.Model.Dto
@@ -45,4 +46,5 @@ namespace datagenie_api.Model.Dto
         }
     }
 
+    
 }

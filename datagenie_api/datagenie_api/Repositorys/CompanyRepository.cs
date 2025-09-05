@@ -18,6 +18,7 @@ namespace datagenie_api.Repositorys
         }
 
         public async Task<List<Company>> GetRandomCompaniesAsync()
+
         {
             using var connection = _context.CreateConnection();
             var result = await connection.QueryAsync<Company>(
