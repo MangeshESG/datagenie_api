@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/datagenie_api/.vs/DatagenieApi/FileContentIndex
+/datagenie_api/datagenie_api
+/datagenie_api/.vs/DatagenieApi/CopilotIndices/17.12.38.29086/SemanticSymbols.db-wal
+/datagenie_api/.vs/DatagenieApi/CopilotIndices/17.12.38.29086/CodeChunks.db
+/datagenie_api/.vs/DatagenieApi/CopilotIndices/17.12.38.29086/CodeChunks.db-shm
+/datagenie_api/.vs/DatagenieApi/CopilotIndices/17.12.38.29086/CodeChunks.db-wal
+/datagenie_api/.vs/DatagenieApi/CopilotIndices/17.12.38.29086/SemanticSymbols.db-shm
