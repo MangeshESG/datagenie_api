@@ -1,6 +1,6 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# ################################################################################
+# # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+# ################################################################################
 
 /.vs/datagenie_api/v17/.wsuo
 /datagenie_api/.vs/DatagenieApi/FileContentIndex/23549a90-761d-4193-ac5f-6b7e44633459.vsidx
@@ -14,9 +14,37 @@
 /datagenie_api/datagenie_api/obj/project.nuget.cache
 /datagenie_api/datagenie_api/obj/Debug/net8.0/datagenie_api.csproj.AssemblyReference.cache
 /datagenie_api/.vs/DatagenieApi/FileContentIndex
-/datagenie_api/datagenie_api
+/datagenie_api/datagenie_api/bin/Debug/net8.0
+/datagenie_api/datagenie_api/obj/Debug/net8.0
+/datagenie_api/obj
+/.vs/DatagenieApi/CopilotIndices/17.12.38.29086
+/.vs/DatagenieApi/DesignTimeBuild
+/.vs/DatagenieApi/FileContentIndex
+/.vs/DatagenieApi/v17
+/datagenie_api/datagenie_api/obj
+/datagenie_api/datagenie_api/Logs
+/datagenie_api/.vs
 /datagenie_api/.vs/DatagenieApi/CopilotIndices/17.12.38.29086/CodeChunks.db
+/datagenie_api/.vs/DatagenieApi/CopilotIndices/17.12.38.29086/CodeChunks.db-shm
 /datagenie_api/.vs/DatagenieApi/CopilotIndices/17.12.38.29086/CodeChunks.db-wal
+/datagenie_api/.vs/DatagenieApi/CopilotIndices/17.12.38.29086/SemanticSymbols.db
 /datagenie_api/.vs/DatagenieApi/CopilotIndices/17.12.38.29086/SemanticSymbols.db-shm
 /datagenie_api/.vs/DatagenieApi/CopilotIndices/17.12.38.29086/SemanticSymbols.db-wal
-/datagenie_api/.vs/DatagenieApi/CopilotIndices/17.12.38.29086/CodeChunks.db-shm
+/datagenie_api/datagenie_api/obj/Debug/net8.0/apphost.exe
+/datagenie_api/.vs/DatagenieApi/v17/.suo
+/datagenie_api/.vs/DatagenieApi/v17/DocumentLayout.backup.json
+/datagenie_api/.vs/DatagenieApi/v17/DocumentLayout.json
+/datagenie_api/datagenie_api/obj/Debug/net8.0/datagenie_api.AssemblyInfo.cs
+/datagenie_api/datagenie_api/obj/Debug/net8.0/datagenie_api.AssemblyInfoInputs.cache
+/datagenie_api/datagenie_api/obj/Debug/net8.0/datagenie_api.csproj.FileListAbsolute.txt
+/datagenie_api/datagenie_api/obj/Debug/net8.0/datagenie_api.assets.cache
+/datagenie_api/datagenie_api/obj/Debug/net8.0/datagenie_api.GeneratedMSBuildEditorConfig.editorconfig
+/datagenie_api/datagenie_api/obj/datagenie_api.csproj.nuget.dgspec.json
+/datagenie_api/.vs/DatagenieApi/DesignTimeBuild/.dtbcache.v2
+/datagenie_api/.vs/DatagenieApi/v17/.futdcache.v2
+/datagenie_api/.vs/ProjectEvaluation/datagenieapi.metadata.v9.bin
+/datagenie_api/.vs/ProjectEvaluation/datagenieapi.projects.v9.bin
+/datagenie_api/.vs/ProjectEvaluation/datagenieapi.strings.v9.bin
+/datagenie_api/datagenie_api/obj/Debug/net8.0/EndpointInfo/datagenie_api.json
+/datagenie_api/datagenie_api/obj/Debug/net8.0/ApiEndpoints.json
+/datagenie_api/datagenie_api/obj/project.assets.json

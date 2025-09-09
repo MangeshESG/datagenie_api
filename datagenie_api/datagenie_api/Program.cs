@@ -1,11 +1,38 @@
+using datagenie_api.Data;
+using datagenie_api.Middleware;
+using datagenie_api.Utility;
+using Serilog;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.File("Logs/log.txt", rollingInterval: RollingInterval.Day)
+    .Enrich.FromLogContext()
+    .CreateLogger();
 
+builder.Host.UseSerilog();
+
+// Add services to the container.
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//  Register DapperContext
+builder.Services.AddSingleton<DapperContext>();
+
+//  Register repositories/services
+builder.Services.AddDatagenieServices();
+
+//  Add CORS policy (sirf localhost:3000 allow hoga)
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowLocalhost3000", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000")
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
 
 var app = builder.Build();
 
@@ -17,6 +44,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseMiddleware<ExceptionLoggingMiddleware>(); // ? Token Blacklist Check
+
+//  Use CORS (before Authorization)
+app.UseCors("AllowLocalhost3000");
 
 app.UseAuthorization();
 
