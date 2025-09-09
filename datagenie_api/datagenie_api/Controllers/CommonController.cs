@@ -145,7 +145,7 @@ namespace datagenie_api.Controllers
             return Ok(contact);
         }
 
-        [HttpGet("GetByTitle")]
+        [HttpGet("GetContactByTitle")]
         public async Task<IActionResult> GetContactsByTitle(string title)
         {
             var result = await _contact.GetMasterContactsByTitle(title);

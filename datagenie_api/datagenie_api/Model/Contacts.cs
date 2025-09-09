@@ -14,4 +14,23 @@ namespace datagenie_api.Model
         public string JobTitle { get; set; }
 
     }
+
+    public class FilterContacts
+    {
+        public long RECORD_ID { get; set; }
+        public string CONTACT { get; set; }
+        public string COMPANY { get; set; }
+        public string PHONE { get; set; }
+        public string Email_id { get; set; }
+        public string CONTACT_IMAGE_URL { get; set; }
+        public string LOCATION { get; set; }
+        public string Title { get; set; }
+
+    }
+    public class LatterFilterContacts
+    {
+        public long RECORD_ID { get; set; }
+        public string CONTACT { get; set; }
+        
+    }
 }

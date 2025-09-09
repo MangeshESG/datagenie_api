@@ -37,12 +37,26 @@ namespace datagenie_api.Repositorys
         public async Task<List<Contacts>> GetContactsByLocationAsync(string location)
         {
             using var connection = _context.CreateConnection();
-            var result = await connection.QueryAsync<Contacts>(
+            var result = await connection.QueryAsync<FilterContacts>(
                 "GetContactsByLocation",
                 new { Location = location },
                 commandType: CommandType.StoredProcedure
             );
-            return result.ToList();
+
+            // Map FilterContacts to Contacts  
+            var contacts = result.Select(fc => new Contacts
+            {
+                RECORD_ID = fc.RECORD_ID,
+                CONTACT = fc.CONTACT,
+                COMPANY = fc.COMPANY,
+                PHONE = fc.PHONE,
+                Email_id = fc.Email_id,
+                CONTACT_IMAGE_URL = fc.CONTACT_IMAGE_URL,
+                Country = fc.LOCATION,
+                JobTitle = fc.Title
+            }).ToList();
+
+            return contacts;
         }
 
         public async Task<PagedContactsDto> GetRelatedContactsWithCount(decimal masterCompanyRecordId, int pageNumber, int pageSize)
